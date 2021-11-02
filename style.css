@@ -1,0 +1,11 @@
+html{
+    background-color: rgba(100, 200, 100, 0.5);
+    font-family: sans-serif;
+    text-align: left, 10px;
+}
+header{
+    color: white;
+    font-size: 30px;
+    left: 10px;
+    top: 15px;
+}
