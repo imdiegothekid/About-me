@@ -1,0 +1,57 @@
+html{
+    background-color: rgb(119, 190, 231);
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+p{font-family: 'Zen Antique', serif;}
+/*-------link--------*/
+a{
+    color: yellow;
+}
+a:visited{
+    color: green;
+}
+a:focus{
+    outline: none !important;
+    border: 6px dotted red;
+    background-color: indigo;
+}
+/*----------link cta-----------*/
+.cta {
+    color: red;
+}
+
+.cta:visited{
+    color: purple;
+}
+
+a:hover.cta{
+    color: sienna;
+    font-weight: bold;
+}
+
+/*-----inputs------*/
+
+input:focus{
+    box-shadow: 0 0 5px rgb(4, 194, 13);
+}
+input[type="text"]:focus{
+    box-shadow: 0 0 10px rgb(255, 0, 200); 
+}
+input[type="checkbox"]:checked ~ p{
+    color: red;
+}
+
+/*-------test especifidad------*/
+p{color: red;}
+span{color: purple;}
+.prueba {color: yellow;}
+span.prueba{color:green;}
+p span.prueba {color:hotpink}
+.parrafo .prueba {color:khaki;}
+p.parrafo span.prueba {color:lightcoral;}
+#spanid {color:lightslategrey;}
+span#spanid {color:mediumaquamarine;}
+.parrafo span#spanid {color: midnightblue;}
+/*.parrafo .span #spanid {color:olivedrab;}*/
