@@ -1,0 +1,48 @@
+body{
+    flex-direction: column; 
+    display: flex; 
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    font-family: sans-serif;
+    font-size: 14px;
+   
+   }
+   
+   header {
+     background-color: yellow;
+     padding: 10px;
+     align-text: center;
+   }
+   
+   nav {
+     background-color: cyan;
+     padding: 10px;
+   }
+   
+   main{
+     background-color: tomato;
+     padding: 10px;
+     flex: 1;
+   }
+   
+   footer {
+     background-color: magenta;
+     display: flex;
+     padding: 10px;
+   }
+   
+   img {
+     border-radius: 50%;
+   }
+   
+   .titulo {
+     font-size: 34px;
+     display: flex;
+     align-item: center;
+   }
+   
+   .fotogato {
+     diplay: flex;
+     margin-left: auto
+   }
